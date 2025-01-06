@@ -48,19 +48,28 @@
             font-size: 16px;
             cursor: pointer;
         }
+        a.btn-update, button.btn-delete {
+            display: inline-block;
+            padding: 10px 20px; 
+            font-size: 16px;    
+            color: white;       
+            text-align: center; 
+            text-decoration: none;
+            border: none;       
+            border-radius: 4px; 
+            cursor: pointer;
+        }
+
+        a.btn-update:hover, button.btn-delete:hover {
+            opacity: 0.9; 
+        }
+
         .btn-update {
             background-color: green;
-            color: white;
         }
-        .btn-update:hover {
-            background-color: darkgreen;
-        }
+
         .btn-delete {
             background-color: #DC3545;
-            color: white;
-        }
-        .btn-delete:hover {
-            background-color: darkred;
         }
         .btn-add {
             background-color: #00509e;
